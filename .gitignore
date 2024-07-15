@@ -128,3 +128,31 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+.DS_Store
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore Terraform variables files
+*.tfvars
+
+# Ignore Terraform crash log files
+crash.log
+
+# Ignore .terraform directory
+.terraform*
+
+# Ignore Terraform plan output files
+*.tfplan
+
+# Ignore local override files (not common)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*.pem
+id_rsa*
